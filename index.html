@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gershon Satvik | Full Stack Developer</title>
+    
+    <!-- STYLES -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+    
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- BACKGROUND BLOBS -->
+    <div class="blob-container">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- TOAST NOTIFICATION -->
+    <div class="toast-container">
+        <div class="toast" id="toast">
+            <i class="uil uil-check-circle"></i>
+            <span id="toastMessage">Message sent successfully!</span>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <header id="header">
+        <nav class="container">
+            <a href="#" class="logo">GERSHON<span>.</span></a>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="menu-btn" id="menuBtn">
+                <i class="uil uil-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero section" id="home">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="hero-subtitle">Available for Work</span>
+                    <h1 class="hero-title">Engineering Scalable <br> <span class="typed-text" id="typed"></span></h1>
+                    <p class="hero-description">
+                        Full-stack developer with 1 year of experience building web and mobile applications using <strong>React.js, Node.js, and MySQL</strong>. Focused on backend logic and scalable application design.
+                    </p>
+                    <div class="hero-btns">
+                        <a href="#contact" class="btn btn-primary">Hire Me <i class="uil uil-message"></i></a>
+                        <a href="Gurram Gershon Satvik CV.pdf" target="_blank" class="btn btn-outline">Download CV <i class="uil uil-file-download"></i></a>
+                    </div>
+                    <div class="social-links mt-40 justify-start">
+                        <a href="https://linkedin.com/in/gershon-satvik-a89912303" target="_blank" class="social-link" data-tooltip="LinkedIn"><i class="uil uil-linkedin"></i></a>
+                        <a href="https://github.com/satvik-synclovis" target="_blank" class="social-link" data-tooltip="GitHub"><i class="uil uil-github-alt"></i></a>
+                        <a href="https://leetcode.com/u/gershon_satvik/" target="_blank" class="social-link" data-tooltip="LeetCode"><i class="fa-solid fa-code"></i></a>
+                        <a href="https://www.codechef.com/users/kira_777" target="_blank" class="social-link" data-tooltip="CodeChef"><i class="fa-solid fa-terminal"></i></a>
+                        <a href="https://www.geeksforgeeks.org/profile/erenjaeger" target="_blank" class="social-link" data-tooltip="GeeksforGeeks"><i class="uil uil-brackets-curly"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="gershon-portfolio-pic.png" alt="Gershon Satvik">
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="section" id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="glass-card glass-panel max-w-1100 mx-auto">
+                    <p class="hero-description text-lg">
+                        I am GERSHON SATVIK GURRAM, a passionate developer with a strong focus on <strong>Backend Logic, API development, and System Architecture</strong>. I thrive on solving complex problems and building tools that make an impact. Based in Bengaluru, India.
+                    </p>
+                    
+                    <div class="skills-container mt-40">
+                        <div class="skill-tag" data-tooltip="Primary Framework">React.js</div>
+                        <div class="skill-tag" data-tooltip="Runtime Environment">Node.js</div>
+                        <div class="skill-tag" data-tooltip="Python Framework">Django</div>
+                        <div class="skill-tag" data-tooltip="Relational DB">MySQL</div>
+                        <div class="skill-tag" data-tooltip="NoSQL DB">MongoDB</div>
+                        <div class="skill-tag" data-tooltip="Cross-Platform Mobile">React Native</div>
+                        <div class="skill-tag" data-tooltip="React Meta-Framework">Next.js</div>
+                        <div class="skill-tag" data-tooltip="Versatile Language">Python</div>
+                        <div class="skill-tag" data-tooltip="Robust Language">Java</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE SECTION -->
+        <section class="section" id="experience">
+            <div class="container">
+                <h2 class="section-title">Professional Journey</h2>
+                <div class="timeline">
+                    <!-- Synclovis -->
+                    <div class="timeline-item">
+                        <span class="timeline-date">Feb 2025 – Present</span>
+                        <h3 class="timeline-title">Software Developer</h3>
+                        <span class="timeline-company">Synclovis Systems — Bengaluru, India</span>
+                        
+                        <div class="card-grid mt-25">
+                            <div class="glass-card glass-panel p-25">
+                                <h4 class="accent-color mb-10">DoorWay (Product)</h4>
+                                <p class="text-sm timeline-card-p">Implemented RBAC visitor management with Admin/Employee/Watchman roles using React & Django.</p>
+                            </div>
+                            <div class="glass-card glass-panel p-25">
+                                <h4 class="accent-color mb-10">GigFws (Client)</h4>
+                                <p class="text-sm timeline-card-p">Revamped UI for freelance marketplace and implemented DigiLocker verification.</p>
+                            </div>
+                            <div class="glass-card glass-panel p-25">
+                                <h4 class="accent-color mb-10">Bluewings (Product)</h4>
+                                <p class="text-sm timeline-card-p">Built school fees dashboards and staff timetable modules with mobile i18n support.</p>
+                            </div>
+                             <div class="glass-card glass-panel p-25">
+                                <h4 class="accent-color mb-10">Karthik Doors (Client)</h4>
+                                <p class="text-sm timeline-card-p">Developed OTP auth and AI-driven quotation APIs using Node.js & MongoDB.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section class="section" id="projects">
+            <div class="container">
+                <h2 class="section-title">Featured Works</h2>
+                <div class="card-grid">
+                    <div class="glass-card glass-panel">
+                        <i class="uil uil-shield-check project-icon"></i>
+                        <h3 class="mb-15">CPS Shield</h3>
+                        <p class="text-muted-alt">ML-based web app using Python to thwart Man-in-the-Middle attacks via advanced classification models.</p>
+                    </div>
+                    <div class="glass-card glass-panel">
+                        <i class="uil uil-image-v project-icon"></i>
+                        <h3 class="mb-15">Image Steganography</h3>
+                        <p class="text-muted-alt">Secure Java application implementing LSB algorithm for hidden data storage and retrieval within images.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION & ACHIEVEMENTS -->
+        <section class="section">
+            <div class="container">
+                <div class="card-grid">
+                    <div class="glass-card glass-panel">
+                        <h2 class="mb-25">Education</h2>
+                        <h3 class="accent-color text-sm">B.Tech in CSE</h3>
+                        <p class="text-sm mt-5">2020 – 2024</p>
+                        <p class="text-muted-alt mt-15">Vignan’s Lara Institute of Technology & Science, Guntur.</p>
+                    </div>
+                    <div class="glass-card glass-panel">
+                        <h2 class="mb-25">Milestones</h2>
+                        <ul class="grid gap-15">
+                            <li class="flex-gap-10"><i class="uil uil-star accent-color"></i> TCS CodeVita Ranked 1787</li>
+                            <li class="flex-gap-10"><i class="uil uil-check-circle accent-color"></i> 150+ LeetCode Solved</li>
+                            <li class="flex-gap-10"><i class="uil uil-medal accent-color"></i> CodeChef 2-Star Coder</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="section" id="contact">
+            <div class="container">
+                <h2 class="section-title">Get in Touch</h2>
+                <div class="contact-container">
+                    <div class="contact-info-list">
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="uil uil-envelope"></i></div>
+                            <div>
+                                <h4 class="text-xs text-muted-alt uppercase">Email Me</h4>
+                                <p>gershonsatvik3@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="uil uil-phone"></i></div>
+                            <div>
+                                <h4 class="text-xs text-muted-alt uppercase">Call Me</h4>
+                                <p>+91 9573704959</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form action="https://formspree.io/f/YOUR_ID_HERE" method="POST" class="contact-form">
+                        <div class="input-group">
+                            <input type="text" name="name" class="form-input" placeholder="Your Name" required>
+                            <input type="email" name="email" class="form-input" placeholder="Your Email" required>
+                        </div>
+                        <input type="text" name="subject" class="form-input" placeholder="Subject">
+                        <textarea name="message" class="form-textarea" placeholder="Project Details / Message..." required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message <i class="uil uil-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://linkedin.com/in/gershon-satvik-a89912303" target="_blank" class="social-link" data-tooltip="LinkedIn"><i class="uil uil-linkedin"></i></a>
+                <a href="https://github.com/satvik-synclovis" target="_blank" class="social-link" data-tooltip="GitHub"><i class="uil uil-github-alt"></i></a>
+                <a href="https://leetcode.com/u/gershon_satvik/" target="_blank" class="social-link" data-tooltip="LeetCode"><i class="fa-solid fa-laptop-code"></i></a>
+                <a href="https://www.codechef.com/users/kira_777" target="_blank" class="social-link" data-tooltip="CodeChef"><i class="fa-solid fa-terminal"></i></a>
+                <a href="https://www.geeksforgeeks.org/profile/erenjaeger" target="_blank" class="social-link" data-tooltip="GeeksforGeeks"><i class="uil uil-brackets-curly"></i></a>
+            </div>
+ </div>
+            <p style="color: var(--text-muted); font-size: 0.9rem;">&copy; 2025 Gershon Satvik. Built with passion and code.</p>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
