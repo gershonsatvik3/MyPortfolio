@@ -310,10 +310,10 @@ nav {
     content: '';
     position: absolute;
     top: -10%;
-    right: -10%;
+    left: 1%;
     width: 400px;
     height: 400px;
-    background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
+    background: radial-gradient(circle, var(--accent-glow) 0%, transparent 90%);
     filter: blur(60px);
     z-index: -1;
 }
