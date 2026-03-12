@@ -1,6 +1,6 @@
 /* ----- CONFIGURATION ----- */
 // Replace with your Formspree ID (e.g., from .env during build)
-const FORMSPREE_ID = "YOUR_ID_HERE"; 
+const FORMSPREE_ID = "HIDDEN_FORMSPREE_ID"; 
 
 /* ----- NAVIGATION BAR FUNCTION ----- */
 const header = document.getElementById("header");
