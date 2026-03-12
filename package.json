@@ -2,6 +2,6 @@
   "name": "gershon-portfolio",
   "version": "1.0.0",
   "scripts": {
-    "build": "sed -i \"s/HIDDEN_FORMSPREE_ID/$FORMSPREE_ID/g\" script.js"
+    "build": "sed -i \"s/HIDDEN_FORMSPREE_ID/$FORMSPREE_ID/g\" index.html script.js"
   }
 }
