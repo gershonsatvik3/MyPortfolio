@@ -352,8 +352,8 @@ nav {
 }
 
 .hero-image img {
-    width: 380px;
-    height: 380px;
+    width: 570px;
+    height: 570px;
     object-fit: cover;
     object-position: 50% -10%; /* Zoomed further to the top/face */
     transform: scale(1.4); /* High zoom */
